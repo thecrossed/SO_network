@@ -40,10 +40,11 @@ WHERE
 -- answer postid 56786809, 56786827, 56788338
 -- get all the comments of each answer
 
+/*
 SELECT p.Id, p.Body, p.PostTypeId, c.Text, c.UserId
 FROM
   Posts p
 JOIN Comments c ON p.Id = c.PostId
 WHERE
-  P.id = 56786827
+  P.id = 56786827 */
 
