@@ -3,6 +3,11 @@ network analysis on Stack Overflow
 
 Qer = who asks
 
-Aer = who answers
+non-Qer = who answers
 
-Cer = who comments 
+@ relation
+
+---------
+
+quetions ID, question ownerID, answerId, answerOnwer Id, CommentId, CommentOwnerId, answerText, commentText, AnswerTo, CommentTo.
+
